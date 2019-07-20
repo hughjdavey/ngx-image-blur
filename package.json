@@ -1,8 +1,24 @@
 {
   "name": "ngx-image-blur",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Simple image blur loader component for Angular >= 2, inspired by image blur loading on Medium.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hughjdavey/ngx-image-blur.git"
+  },
+  "homepage": "https://github.com/hughjdavey/ngx-image-blur/blob/master/README.md",
+  "bugs": "https://github.com/hughjdavey/ngx-image-blur/issues",
+  "keywords": [
+    "angular", "image", "blur", "image loading", "image blur"
+  ],
+  "author": "hughjd",
+  "license": "CC0-1.0",
   "peerDependencies": {
     "@angular/common": ">=2.0.0 < 9.0.0",
     "@angular/core": ">=2.0.0 < 9.0.0"
+  },
+  "scripts": {
+    "build": "ng build ngx-image-blur",
+    "postbuild": "node scripts/copy-artifacts.js"
   }
 }
