@@ -1,0 +1,8 @@
+{
+  "name": "ngx-image-blur",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": ">=2.0.0 < 9.0.0",
+    "@angular/core": ">=2.0.0 < 9.0.0"
+  }
+}
